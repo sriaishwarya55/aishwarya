@@ -35,7 +35,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
+		/*SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
 		int id;
 		String fullname;
 		Date day;
@@ -47,7 +47,7 @@ public class StudentGroup implements StudentArrayOperation {
 		s[i].setId(id);
 		s[i].setFullName(fullname);
 		s[i].setBirthDate(day);
-		s[i].setAvgMark(avg);
+		s[i].setAvgMark(avg);*/
 	}
 
 	@Override
@@ -59,6 +59,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
+		if(index<0||index>=n)
+			break;
+		else
+			
 		
 	}
 

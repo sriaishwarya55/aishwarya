@@ -12,13 +12,13 @@ public class Main {
 		int n=sc.nextInt();
 		Student[] s=new Student[n];
 		StudentGroup sg=new StudentGroup();
-		for(int i=0;i<n;i++)
+		/*for(int i=0;i<n;i++)
 		{
 			sg.setStudents(s[i]);
 			
-		}
+		}*/
 		//sg.getStudents();
-			
+			sg.studentGroup(5);
 		
 		
 		
